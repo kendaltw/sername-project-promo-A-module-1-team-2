@@ -60,8 +60,9 @@
 } */
 
 .div3 {
-    width: 70%;
+    box-sizing: border-box;
     align-items: center;
+    
     
 }
 .button-3 {
