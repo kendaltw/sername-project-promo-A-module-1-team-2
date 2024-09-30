@@ -79,3 +79,40 @@
 .button-3:hover {
     transform: scale(2px);
 }
+
+
+.cosoverde {
+
+  background-color: #74c69d;
+  font-family: Arial, sans-serif;
+  
+}
+
+.foto_idea{
+  width: 100%;
+
+
+ }
+.explora {
+  background-color: white;
+  border-radius: 10px;
+ }
+
+.welcome {
+
+  padding: 10px;
+  color: white;
+  font-family:sans-serif;
+}
+.titulo2 {
+
+  padding: 10px;
+  color: white;
+  font-family: crismonText;
+}
+.titulo3 {
+
+  padding: 10px;
+  color: white;
+  font-family:sans-serif ;
+}
