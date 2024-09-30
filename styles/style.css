@@ -1,0 +1,30 @@
+.cabecera {
+  background-color: #74c69d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 22px;
+  position: sticky;
+  top: 0;
+}
+.logo-cabecera {
+  width: 50px;
+}
+
+.texto-cabecera {
+  font-size: 40px;
+  width: 162px;
+  padding-left: 10px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.menu-hamburguesa {
+  width: 30px;
+  position: absolute;
+  right: 41.9px; 
+}

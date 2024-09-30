@@ -2,6 +2,8 @@
 
 Diseños del proyecto: <https://app.zeplin.io/project/66ea88e39d4145c3cefd6542>
 
+Materiales: https://books.adalab.es/materiales-del-curso-a-pw-ft/proyectos/proyecto-1/p1_proyecto_v1
+
 - ACORDADO:
   - Dailys: al principio de la hora de proyecto.
   - Repo creado por Kendal.
