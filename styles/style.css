@@ -58,3 +58,14 @@
 /* .photo{
     height: ;
 } */
+
+.div3 {
+    width: 70%;
+    align-items: center;
+    
+}
+.button-3 {
+    background-color: black;
+    color: white;
+    align-items: center;
+}
