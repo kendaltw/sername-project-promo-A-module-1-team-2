@@ -13,6 +13,7 @@
   position: sticky;
   top: 0;
 }
+
 .logo-cabecera {
   width: 50px;
 }
@@ -32,6 +33,10 @@
   width: 30px;
   position: absolute;
   right: 41.9px; 
+}
+
+.listado-menu {
+  display: none;
 }
 
 .coso-3 {
