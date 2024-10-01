@@ -16,3 +16,4 @@ Vídeo de cómo maquetar la columa central: https://www.youtube.com/watch?v=LbYS
 DUDAS
 - Por qué el DS Store sale github pero no sale en nuestros ordenadores si no tenemos git ignore
 - Por que en inspeccionar se ve distinto que si no estas en esa opcion? ( cuando no damos a inspeccionar la cabezera y la primera foto, la zona verde, se mueven acuerdo lo que queremos, la cabezera baja y la foto se ciñe al tamaño de pantalla, cuando le damos a inspeccionar dejan de comportarse asi
+- ¿Cómo podemos subir cosas con git habiendo borrado o modificado cosas sin que haya conflicto?
