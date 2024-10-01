@@ -14,4 +14,5 @@ Vídeo de cómo maquetar la columa central: https://www.youtube.com/watch?v=LbYS
   - Crear **backlog** (tablero de tareas) en GitHub: projects - new project - elegir diseño (team planing es el más sencillo) - poner nombre - create projet - settings (_cambiar a visibilidad pública_) - save changes - _en el menú izquierdo_ Manage access (_invitar colaboradoras_) - _Volver al proyecto, en el backlog_ add item (_empezar a crear tareas_).
 
 DUDAS
-Por qué el DS Store sale github pero no sale en nuestros ordenadores si no tenemos git ignore
+- Por qué el DS Store sale github pero no sale en nuestros ordenadores si no tenemos git ignore
+- Por que en inspeccionar se ve distinto que si no estas en esa opcion? ( cuando no damos a inspeccionar la cabezera y la primera foto, la zona verde, se mueven acuerdo lo que queremos, la cabezera baja y la foto se ciñe al tamaño de pantalla, cuando le damos a inspeccionar dejan de comportarse asi
