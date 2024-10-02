@@ -53,6 +53,14 @@
   
 }
 
+.div2{
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
 .foto_idea{
   width: 100%;
 
