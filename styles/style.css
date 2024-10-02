@@ -1,3 +1,45 @@
+:root {
+  --color-principal: #74c69d;
+  --letra-principal: "Work Sans", sans-serif;
+  --color-letra: white;
+}
+
+.cabecera {
+  background-color: var(--color-principal);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 22px;
+  position: sticky;
+  top: 0;
+}
+
+.logo-cabecera {
+  width: 50px;
+}
+
+.texto-cabecera {
+  font-size: 40px;
+  width: 162px;
+  padding-left: 10px;
+  color: var(--color-letra);
+  font-family: var(--letra-principal);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.menu-hamburguesa {
+  width: 30px;
+  position: absolute;
+  right: 41.9px; 
+}
+
+.listado-menu {
+  display: none;
+}
+
 .coso-3 {
     display: flex;
     flex-direction: column;
@@ -26,61 +68,12 @@
 .container-coso-3 {
     
 }
-.cabecera {
-  background-color: #74c69d;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  height: 60px;
-  padding-left: 22px;
-  position: sticky;
-  top: 0;
-}
-.logo-cabecera {
-  width: 50px;
-}
 
-.texto-cabecera {
-  font-size: 40px;
-  width: 162px;
-  padding-left: 10px;
-  color: white;
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.menu-hamburguesa {
-  width: 30px;
-  position: absolute;
-  right: 41.9px; 
-}
 
 /* .photo{
     height: ;
 } */
 
-.div3 {
-    box-sizing: border-box;
-    align-items: center;
-    
-    
-}
-.button-3 {
-    background-color: black;
-    color: white;
-    align-items: center;
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-}
-.button-3:hover {
-    transform: scale(2px);
-}
 
 
 .cosoverde {
@@ -120,7 +113,6 @@
   font-family: crismonText;
 }
 .titulo3 {
-
   padding: 10px;
   color: white;
   font-family:sans-serif ;
@@ -135,4 +127,65 @@
   text-decoration: none;
   border-radius: 5px;
   transition: transform 0.3s ease;
+}
+
+/*Nuestro equipo */
+
+.equipo{
+align-items: center;
+} /* porque esta mierda no se centra? */
+
+.FotoEquipo{
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px black;
+ 
+}
+
+.image-user {
+  width: 100px;
+  
+}
+
+/*Nuestro equipo */
+.div3 {
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.container-image3 img{
+  width: 100%;
+  margin-left: 10px;
+}
+
+.ver-mas {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  align-items: center;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.ver-mas:hover {
+  transform: scale(2px);
+}
+
+.footer {
+  height: 125px;
+  margin-top: 50px;
+  background-color: var(--color-principal);
+  color: var(--color-letra);
+  font-family: var(--letra-principal);
 }

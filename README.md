@@ -13,5 +13,3 @@ Vídeo de cómo maquetar la columa central: https://www.youtube.com/watch?v=LbYS
   - Cómo creamos las clases (con guión, camelcase...)
   - Crear **backlog** (tablero de tareas) en GitHub: projects - new project - elegir diseño (team planing es el más sencillo) - poner nombre - create projet - settings (_cambiar a visibilidad pública_) - save changes - _en el menú izquierdo_ Manage access (_invitar colaboradoras_) - _Volver al proyecto, en el backlog_ add item (_empezar a crear tareas_).
 
-DUDAS
-Por qué el DS Store sale github pero no sale en nuestros ordenadores si no tenemos git ignore
