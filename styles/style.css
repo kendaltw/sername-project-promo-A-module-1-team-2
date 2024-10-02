@@ -3,6 +3,14 @@
   --letra-principal: "Work Sans", sans-serif;
   --color-letra: white;
 }
+/*Fonts+sizes+colors*/
+* {
+  font-family: "Work Sans", serif;
+}
+.h1 {
+  font-size: 25%;
+
+}
 
 .cabecera {
   background-color: var(--color-principal);
