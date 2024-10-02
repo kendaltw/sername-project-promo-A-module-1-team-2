@@ -4,14 +4,8 @@
   --letra-secundaria: "Crimson Text", serif;
   --color-letra: white;
 }
-/*Fonts+sizes+colors*/
-.body {
-  font-family: var(--letra-principal);
-}
-.h1 {
-  font-size: 25%;
 
-}
+  
 
 .cabecera {
   background-color: var(--color-principal);
