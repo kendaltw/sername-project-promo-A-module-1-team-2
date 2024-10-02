@@ -43,7 +43,13 @@
 .photo {
   width: 100%;
 }
-
+.div2{
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
 
 .cosoverde {
@@ -114,6 +120,7 @@
   margin-top: 20px;
   border-radius: 15px;
   box-shadow: 0px 4px 8px black;
+  text-align: center
 
 
 
