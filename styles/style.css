@@ -1,11 +1,12 @@
 :root {
   --color-principal: #74c69d;
   --letra-principal: "Work Sans", sans-serif;
+  --letra-secundaria: "Crimson Text", serif;
   --color-letra: white;
 }
 /*Fonts+sizes+colors*/
-* {
-  font-family: "Work Sans", serif;
+.body {
+  font-family: var(--letra-principal);
 }
 .h1 {
   font-size: 25%;
@@ -153,9 +154,8 @@ align-items: center;
   background-color: black;
   color: white;
   margin: 10px;
-  align-items: center;
-  display: inline-block;
   padding: 15px 30px;
+  align-self: flex-start;
   font-size: 24px;
   text-decoration: none;
   border-radius: 5px;
