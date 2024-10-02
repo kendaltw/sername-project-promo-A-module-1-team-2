@@ -48,10 +48,16 @@
   display: none;
 }
 
-
-/* .photo{
-    height: ;
-} */
+.photo {
+  width: 100%;
+}
+.div2{
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
 
 .cosoverde {
