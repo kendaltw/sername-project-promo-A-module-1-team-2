@@ -177,3 +177,23 @@ justify-content: center;
   color: var(--color-letra);
   font-family: var(--letra-principal);
 }
+
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fa-brands {
+  margin-top: 31px;
+  height: 18px;
+}
+
+.copiright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+  font-family: var(--letra-principal);
+  font-size: 20px;
+}
