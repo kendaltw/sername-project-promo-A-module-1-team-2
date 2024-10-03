@@ -4,6 +4,14 @@
   --letra-secundaria: "Crimson Text", serif;
   --color-letra: white;
 }
+/*Fonts+sizes+colors*/
+/* bajar opacidad en todos los p, preguntar compis como hacer con h1s */
+.body {
+  font-family: var(--letra-principal);
+}
+
+/* .h1 font-size: 20%;
+font-family: var(--letra-secundaria); */
 
   
 
