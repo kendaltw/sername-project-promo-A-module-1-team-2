@@ -1,8 +1,230 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+:root {
+    --color-principal: #74c69d;
+    --letra-principal: "Work Sans", sans-serif;
+    --letra-secundaria: "Crimson Text", serif;
+    --color-letra: white;
+  }
+  /*Fonts+sizes+colors*/
+  /* bajar opacidad en todos los p, preguntar compis como hacer con h1s */
+  .body {
+    font-family: var(--letra-principal);
+  }
+  
+  /* .h1 font-size: 20%;
+  font-family: var(--letra-secundaria); */
+  
+    
+  
+  .cabecera {
+    background-color: var(--color-principal);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 22px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo-cabecera {
+    width: 50px;
+  }
+  
+  .texto-cabecera {
+    font-size: 40px;
+    width: 162px;
+    padding-left: 10px;
+    color: var(--color-letra);
+    font-family: var(--letra-principal);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .menu-hamburguesa {
+    width: 30px;
+    position: absolute;
+    right: 41.9px; 
+  }
+  
+  .listado-menu {
+    display: none;
+  }
+  
+  .photo {
+    width: 100%;
+  }
+  .div2{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  
+  .cosoverde {
+  
+    background-color: #74c69d;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .div2{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .foto_idea{
+    width: 100%;
+  
+  
+   }
+  .explora {
+      background-color: white;
+        color: black;
+        align-items: center;
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+        margin: 10px;
+  }
+  .welcome {
+  
+    padding: 10px;
+    color: white;
+    font-family:sans-serif;
+  }
+  .titulo2 {
+  
+    padding: 10px;
+    color: white;
+    font-family: crismonText;
+  }
+  .titulo3 {
+    padding: 10px;
+    color: white;
+    font-family:sans-serif ;
+  }
+  .button-2 {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  /*Nuestro equipo */
+  .NuestroEquipo{
+    text-align: center;
+  }
+  .equipo {
+  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+  }
+  
+  .FotoEquipo {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+    text-align: center
+  
+  
+  
+  }
+  
+  .image-user {
+    width: 100px;
+    border-radius: 50%;
+  
+  }
+  
+  /*Nuestro equipo */
+  .div3 {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .container-image3 img{
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  .ver-mas {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px 30px;
+    align-self: flex-start;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .ver-mas:hover {
+    transform: scale(2px);
+  }
+  
+  .footer {
+    height: 125px;
+    margin-top: 50px;
+    background-color: var(--color-principal);
+    color: var(--color-letra);
+    font-family: var(--letra-principal);
+  }
+  
+  .iconos-redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .fa-brands {
+    margin-top: 31px;
+    height: 18px;
+  }
+  
+  .copiright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+    font-family: var(--letra-principal);
+    font-size: 20px;
+  }
