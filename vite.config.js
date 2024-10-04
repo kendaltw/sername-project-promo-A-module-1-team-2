@@ -54,11 +54,8 @@ export default defineConfig({
       },
     },
   },
-  erver: {
+  server: {
     open: "/index.html",
-    watch: {
-      usePolling: true
-    }
   },
   plugins: [
     injectHTML(),
