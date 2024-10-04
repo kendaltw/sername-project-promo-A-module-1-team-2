@@ -1,8 +1,19 @@
 :root {
   --color-principal: #74c69d;
   --letra-principal: "Work Sans", sans-serif;
+  --letra-secundaria: "Crimson Text", serif;
   --color-letra: white;
 }
+/*Fonts+sizes+colors*/
+/* bajar opacidad en todos los p, preguntar compis como hacer con h1s */
+.body {
+  font-family: var(--letra-principal);
+}
+
+/* .h1 font-size: 20%;
+font-family: var(--letra-secundaria); */
+
+  
 
 .cabecera {
   background-color: var(--color-principal);
@@ -59,6 +70,14 @@
   
 }
 
+.div2{
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
 .foto_idea{
   width: 100%;
 
@@ -106,24 +125,17 @@
 }
 
 /*Nuestro equipo */
-.NuestroEquipo{
-  text-align: center;
-}
+
 .equipo {
-
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-
+  justify-content: center;
 }
 
 .FotoEquipo {
   background-color: white;
   width: 300px;
   padding: 20px;
-  margin-top: 15px;
-  border-radius: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
   box-shadow: 0px 4px 8px black;
   text-align: center
 
@@ -155,9 +167,8 @@
   background-color: black;
   color: white;
   margin: 10px;
-  align-items: center;
-  display: inline-block;
   padding: 15px 30px;
+  align-self: flex-start;
   font-size: 24px;
   text-decoration: none;
   border-radius: 5px;
@@ -175,4 +186,24 @@
   background-color: var(--color-principal);
   color: var(--color-letra);
   font-family: var(--letra-principal);
+}
+
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fa-brands {
+  margin-top: 31px;
+  height: 18px;
+}
+
+.copiright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+  font-family: var(--letra-principal);
+  font-size: 20px;
 }
