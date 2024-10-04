@@ -1,35 +1,27 @@
-.cabecera {
+.footer {
+  height: 125px;
+  margin-top: 50px;
   background-color: var(--color-principal);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  height: 60px;
-  padding-left: 22px;
-  position: sticky;
-  top: 0;
-}
-
-.logo-cabecera {
-  width: 50px;
-}
-
-.texto-cabecera {
-  font-size: 40px;
-  width: 162px;
-  padding-left: 10px;
   color: var(--color-letra);
   font-family: var(--letra-principal);
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
-.menu-hamburguesa {
-  width: 30px;
-  position: absolute;
-  right: 41.9px; 
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.listado-menu {
-  display: none;
+.fa-brands {
+  margin-top: 31px;
+  height: 18px;
+}
+
+.copiright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+  font-family: var(--letra-principal);
+  font-size: 20px;
 }
