@@ -68,13 +68,7 @@ a {
   .photo {
     width: 100%;
   }
-  .div2{
-    background-color: white;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
+  
   
   
   .cosoverde {
@@ -122,9 +116,9 @@ a {
   .button-2 {
     background-color: black;
     color: white;
-    align-items: center;
-    display: inline-block;
+    margin: 10px;
     padding: 15px 30px;
+    align-self: flex-start;
     font-size: 24px;
     text-decoration: none;
     border-radius: 5px;
