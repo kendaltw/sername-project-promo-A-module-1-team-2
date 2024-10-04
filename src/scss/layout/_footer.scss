@@ -1,0 +1,35 @@
+.cabecera {
+  background-color: var(--color-principal);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 22px;
+  position: sticky;
+  top: 0;
+}
+
+.logo-cabecera {
+  width: 50px;
+}
+
+.texto-cabecera {
+  font-size: 40px;
+  width: 162px;
+  padding-left: 10px;
+  color: var(--color-letra);
+  font-family: var(--letra-principal);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.menu-hamburguesa {
+  width: 30px;
+  position: absolute;
+  right: 41.9px; 
+}
+
+.listado-menu {
+  display: none;
+}
