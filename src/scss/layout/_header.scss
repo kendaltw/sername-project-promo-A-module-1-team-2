@@ -49,5 +49,9 @@
 
 .listado-menu {
   display: flex;
+  font-size: 20px;
+  color: $colorFont;
+  font-family: $fontText1;
+  gap: 30px;
 }
 
