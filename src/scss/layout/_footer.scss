@@ -9,12 +9,14 @@
 .iconos-redes-sociales {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
 .fa-brands {
   margin-top: 31px;
-  height: 18px;
+  height: 22px;
+  color: $colorFont;
 }
 
 .copiright {
@@ -24,4 +26,36 @@
   gap: 5px;
   font-family: $fontText1;
   font-size: 20px;
+}
+
+.fa-brands {
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  color: #F77737;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+.fa-tiktok:hover{
+  color: #000000;
+}
+.fa-whatsapp:hover::before {
+  border-radius: 25%;
+  color: #25D366;
+  background-color: white;
+  }
+.fa-youtube:hover{
+  color: #FF0000;
 }
