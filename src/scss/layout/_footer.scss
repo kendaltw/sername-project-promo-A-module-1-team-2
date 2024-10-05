@@ -4,6 +4,13 @@
   background-color: $colorLink1;
   color: $colorFont;
   font-family: $fontText1;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .iconos-redes-sociales {
@@ -17,6 +24,10 @@
   margin-top: 31px;
   height: 22px;
   color: $colorFont;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.5, 1.5);
+  }
 }
 
 .copiright {
@@ -28,20 +39,13 @@
   font-size: 20px;
 }
 
-.fa-brands {
-  transition: transform 0.5s ease;
-  &:hover {
-    transform: scale(1.5, 1.5);
-  }
-}
-
+// Cada icono de red social tiene su color corporativo
 .fa-facebook-f:hover {
   color: #3b5998;
 }
 .fa-instagram:hover {
   color: #F77737;
 }
-
 .fa-twitter:hover{
   color: #1DA1F2;
 }
@@ -55,7 +59,7 @@
   border-radius: 25%;
   color: #25D366;
   background-color: white;
-  }
+}
 .fa-youtube:hover{
   color: #FF0000;
 }
