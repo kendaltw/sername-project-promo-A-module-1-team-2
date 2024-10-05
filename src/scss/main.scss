@@ -21,24 +21,15 @@
 //   font-family: var(--letra-secundaria); */
   
   
-  .photo {
-    width: 100%;
-  }
-  
-  
   
   .cosoverde {
     background-color: #74c69d;
     font-family: Arial, sans-serif;
   }
   
-  .div2{
-    background-color: white;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
+
+ 
+  
   .foto_idea{
     width: 100%;
   }
@@ -79,6 +70,7 @@
     text-decoration: none;
     border-radius: 5px;
     transition: transform 0.3s ease;
+    
   }
   
   /*Nuestro equipo */
