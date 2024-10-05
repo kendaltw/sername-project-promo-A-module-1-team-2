@@ -1,8 +1,66 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  min-width: $minWidthMobile;
+  height: 125px;
+  margin-top: 50px;
+  background-color: $colorLink1;
+  color: $colorFont;
+  font-family: $fontText1;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fa-brands {
+  margin-top: 31px;
+  height: 22px;
+  color: $colorFont;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.copiright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+  font-family: $fontText1;
+  font-size: 20px;
+}
+
+// Cada icono de red social tiene su color corporativo
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  color: #F77737;
+}
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+.fa-pinterest-p:hover {
+  color: #E60023;
+}
+.fa-tiktok:hover{
+  color: #000000;
+}
+.fa-whatsapp:hover::before {
+  border-radius: 25%;
+  color: #25D366;
+  background-color: white;
+}
+.fa-youtube:hover{
+  color: #FF0000;
 }

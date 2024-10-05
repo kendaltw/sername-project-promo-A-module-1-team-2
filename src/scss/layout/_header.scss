@@ -1,5 +1,65 @@
-.page__header {
+.cabecera {
+  min-width: $minWidthMobile;
+  background-color: $colorLink1;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  align-items: center;
+  height: 60px;
+  padding-left: 22px;
+  position: sticky;
+  top: 0;
+  &-contenido-movil{
+    display: flex;
+    align-items: center;
+  }
+
+  @media (min-width: 1440px) {
+    justify-content: space-between;
+  }
 }
+
+.logo-cabecera {
+  width: 50px;
+}
+
+.texto-cabecera {
+  font-size: 40px;
+  width: 162px;
+  padding-left: 10px;
+  color: $colorFont;
+  font-family: $fontText1;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.menu-hamburguesa {
+  width: 30px;
+  position: absolute;
+  right: 41.9px; 
+  
+  @media (min-width: 1440px) {
+    display: none;
+    }
+}
+
+.contenedor-menu {
+  display: none;
+  
+  @media (min-width: 1440px) {
+  display: flex;
+  justify-content: flex-end;
+  }
+}
+
+.listado-menu {
+  display: flex;
+  font-size: 20px;
+  color: $colorFont;
+  font-family: $fontText1;
+  gap: 30px;
+  a {
+    color: $colorFont;
+  }
+}
+
