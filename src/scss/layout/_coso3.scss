@@ -1,31 +1,49 @@
 .div3 {
-    background-color: $colorFont;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+  background-color: $colorFont;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 30px;
+
+  @media (min-width: 1440px) {
+    flex-direction: row-reverse;
+    gap: 130px;
+    align-items: center;
+    padding: 130px;
+  }
 }
 
 .container-image3 img {
-    width: 100%;
-    margin:10px;
+  width: 100%;
+  margin: 10px;
 }
 .container-ver-mas {
-    margin-top: 10px;
-}
-.ver-mas {
-    background-color: $colorFont2;
-    color: $colorFont;
-    margin: 10px;
-    padding: 15px 30px;
-    align-self: flex-start;
-    font-size: 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
+  display: flex;
+  padding: 14px 0px 14px 0px;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ver-mas {
+  background-color: $colorFont2;
+  color: $colorFont;
+  padding: 15px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 48px;
+  transition: transform 0.3s ease;
+}
 
 .ver-mas:hover {
-    transform: scale(2px);
+  transform: scale(2px);
 }
