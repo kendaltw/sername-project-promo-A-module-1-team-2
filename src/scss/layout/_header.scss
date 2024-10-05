@@ -1,4 +1,5 @@
 .cabecera {
+  min-width: $minWidthMobile;
   background-color: $colorLink1;
   width: 100%;
   display: flex;
@@ -7,6 +8,10 @@
   padding-left: 22px;
   position: sticky;
   top: 0;
+  &-contenido-movil{
+    display: flex;
+    align-items: center;
+  }
 
   @media (min-width: 1440px) {
     justify-content: space-between;
@@ -53,5 +58,8 @@
   color: $colorFont;
   font-family: $fontText1;
   gap: 30px;
+  a {
+    color: $colorFont;
+  }
 }
 
