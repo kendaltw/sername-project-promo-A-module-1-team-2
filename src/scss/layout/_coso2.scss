@@ -1,9 +1,12 @@
 
 .textoeimagen {
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
   .photo {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    margin-left: 10px;
+   
   }
