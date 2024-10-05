@@ -17,6 +17,7 @@
 .container-image3 img {
   width: 100%;
   margin: 10px;
+  max-width: 600px;
 }
 .container-ver-mas {
   display: flex;
@@ -27,6 +28,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 470px;
 }
 
 .ver-mas {
