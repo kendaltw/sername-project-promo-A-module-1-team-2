@@ -7,6 +7,10 @@
   padding-left: 22px;
   position: sticky;
   top: 0;
+
+  @media (min-width: 1440px) {
+    justify-content: space-between;
+  }
 }
 
 .logo-cabecera {
@@ -28,8 +32,22 @@
   width: 30px;
   position: absolute;
   right: 41.9px; 
+  
+  @media (min-width: 1440px) {
+    display: none;
+    }
+}
+
+.contenedor-menu {
+  display: none;
+  
+  @media (min-width: 1440px) {
+  display: flex;
+  justify-content: flex-end;
+  }
 }
 
 .listado-menu {
-  display: none;
+  display: flex;
 }
+
