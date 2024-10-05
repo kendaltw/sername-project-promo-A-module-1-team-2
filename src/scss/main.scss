@@ -109,35 +109,7 @@
   }
   
   /*Nuestro equipo */
-  .div3 {
-    background-color: $colorFont;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
   
-  .container-image3 img{
-    width: 100%;
-    margin-left: 10px;
-  }
-  
-  .ver-mas {
-    background-color: $colorFont2;
-    color: $colorFont;
-    margin: 10px;
-    padding: 15px 30px;
-    align-self: flex-start;
-    font-size: 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-  }
-  
-  
-  .ver-mas:hover {
-    transform: scale(2px);
-  }
   
   .footer {
     height: 125px;
