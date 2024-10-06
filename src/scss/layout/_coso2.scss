@@ -4,8 +4,19 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 60px;
   gap: 30px;
+  }
+
+  @media (min-width: 1440px) {
+    .textoeimagen {
+      display: flex;
+      flex-direction: row;
+      gap: 130px;
+      align-items: center;
+      padding: 130px;
+    }
+
   }
   
   
@@ -47,3 +58,4 @@
    transform: scale(2px);
 
   }
+ 
