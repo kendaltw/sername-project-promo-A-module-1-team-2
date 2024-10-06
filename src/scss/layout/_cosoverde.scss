@@ -52,7 +52,10 @@
      }
      .text {
         order: 1;
+        flex-direction: column;
      }
+
+     */si quito el flexdirection colum ! comentar con ellas!
      .foto_idea {
         order: 2;
      }
