@@ -4,6 +4,7 @@
 @import 'layout/footer';
 @import 'layout/coso2';
 @import 'layout/equipo';
+@import 'layout/cosoverde';
 
 
 
@@ -24,34 +25,7 @@
   
   
   
-  .cosoverde {
-    background-color: #74c69d;
-    font-family: Arial, sans-serif;
-  }
-  
 
- 
-  
-  .foto_idea{
-    width: 100%;
-  }
-  .explora {
-    background-color: white;
-    color: black;
-    align-items: center;
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-    margin: 10px;
-  }
-  .welcome {
-    padding: 10px;
-    color: white;
-    font-family:sans-serif;
-  }
   .titulo2 {
     padding: 10px;
     color: white;
@@ -75,33 +49,8 @@
     
   }
   
-  /*Nuestro equipo */
-  .NuestroEquipo{
-    text-align: center;
-  }
-  .equipo {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  
-  .FotoEquipo {
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-    margin-top: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px black;
-    text-align: center;
-  }
-  
-  .image-user {
-    width: 100px;
-    border-radius: 50%;
-  }
-  
-  /*Nuestro equipo */
+
+
   .div3 {
     background-color: white;
     margin-top: 10px;
@@ -238,12 +187,7 @@ a {
   }
   
   
-  .cosoverde {
-  
-    background-color: #74c69d;
-    font-family: Arial, sans-serif;
-    
-  }
+
   
   .div2{
     background-color: white;
@@ -251,31 +195,9 @@ a {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    
-  }
-  .foto_idea{
-    width: 100%;
-  
-  
+
    }
-  .explora {
-      background-color: white;
-        color: black;
-        align-items: center;
-        display: inline-block;
-        padding: 15px 30px;
-        font-size: 24px;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: transform 0.3s ease;
-        margin: 10px;
-  }
-  .welcome {
-  
-    padding: 10px;
-    color: white;
-    font-family:sans-serif;
-  }
+ 
   .titulo2 {
   
     padding: 10px;
