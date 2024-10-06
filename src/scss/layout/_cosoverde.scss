@@ -11,6 +11,10 @@
      width: 100%;
      margin: 10px;
      max-width: 600px;
+     order: 1;
+ }
+ .text { 
+    order: 2;
  }
  .explora {
      background-color: white;
@@ -44,6 +48,13 @@
          gap: 130px;
          align-items: center;
          padding: 130px;
+         
+     }
+     .text {
+        order: 1;
+     }
+     .foto_idea {
+        order: 2;
      }
  }
 
