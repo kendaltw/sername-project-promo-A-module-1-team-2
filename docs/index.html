@@ -1,69 +1,105 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Tech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
+    
+  <link rel="stylesheet" href="./assets/index-569d1f0c.css">
+</head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
-</header>
+<body>
+    <header class="cabecera">
+        
+        <img class="logo-cabecera" src="./images/a.svg" alt="logo de AdaTech">
+        <span class="texto-cabecera">AdaTech</span>
+        
+        <img class="menu-hamburguesa" src="./images/menu-icon.png" alt="es un icono de menú hamburguesa">
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <div class="listado-menu">
+            <ul>
+                <li>Home</li>
+                <li>Servicios</li>
+                <li>Nosotras</li>
+                <li>contato</li>
+            </ul>
+        </div>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+    </header>
+    <main>
+        <div class="cosoverde">
+            <img class="foto_idea" src="Recursos/Ada_Tech/1.svg" alt ="logo ideas">
+            <h3 class="welcome">WELCOME</h3>
+            <h2 class="titulo2"> LOREM-titul-IPSUM</h2>
+            <p class="titulo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa ad impedit? Repellendus deleniti cumque assumenda
+            illo? Omnis corrupti, ipsam eligendi sint dolorum neque, nisi tempora minima explicabo dolorem ad!</p>
+            
+            <a class="explora" href="">Explora</a>
+        </div>
+        <div class=div2>
+            <img class="photo" src="Recursos/Ada_Tech/2.svg" alt="formas de comunicarse">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos repudiandae aperiam commodi laborum aspernatur amet accusantium iste adipisci sed, illo earum dolor autem ratione omnis expedita provident quisquam. Maiores!</p> 
+            <a href="" class="button-2" >
+                ver mas
+            </a> 
+            
+        </div>
+        <div class="div3">
+            <div class="container-image3">
+                <img src="./Recursos/Ada_Tech/3.svg" alt="imagen3">
+            </div>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa ad impedit? Repellendus deleniti cumque assumenda illo? Omnis corrupti, ipsam eligendi sint dolorum neque, nisi tempora minima explicabo dolorem ad!</p>
+            
+                <div>
+                    <a class="ver-mas" href="">ver mas</a>
+                </div>
+            
+        </div>
+        <div class="NuestroEquipo"> 
+            <h1 class="textoequipo">Nuestro equipo</h1>
+            <div class="equipo"></div>
+                <div class="FotoEquipo"></div>
+                    <img class="image-user" src="./Recursos/Ada_Tech/Gojo.jpg" alt="Foto perfil equipo">
+                    <h2>Nuria Campo</h2>
+                    <p> Profesio </p>
+                <div class="FotoEquipo"></div>
+                    <img  class="image-user" src="./Recursos/Ada_Tech/Gojo.jpg" alt="Foto perfil equipo">
+                    <h2>Tania Nadales</h2>
+                    <p> Profesio </p>
+                <div class="FotoEquipo"></div>
+                    <img class="image-user" src="./Recursos/Ada_Tech/Gojo.jpg" alt="Foto perfil equipo">
+                    <h2>Kendal Tellez</h2>
+                    <p> Profesio </p>
+                <div class="FotoEquipo"></div>
+                    <img class="image-user" src="./Recursos/Ada_Tech/Gojo.jpg" alt="Foto perfil equipo">
+                    <h2>Carme Medina</h2>
+                    <p> Profesio </p>
 
-    </li>
-  </ul>
-</main>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
-</footer>
-
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="iconos-redes-sociales">
+            <i class="icono fa-brands fa-facebook-f"></i>
+            <i class="icono fa-brands fa-instagram"></i>
+            <i class="icono fa-brands fa-twitter"></i>
+            <i class="icono fa-brands fa-pinterest-p"></i>
+            <i class="icono fa-brands fa-tiktok"></i>
+            <i class="icono fa-brands fa-whatsapp"></i>
+            <i class="icono fa-brands fa-youtube"></i>
+        </section>
+        <section class="copiright">
+            <i class="fa-regular fa-copyright"></i>
+            <span>Adatech, 2024.</span>
+        </section>
+    </footer>
+</body>
 </html>
