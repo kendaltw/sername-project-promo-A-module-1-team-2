@@ -7,10 +7,12 @@
   font-family: $fontText1;
 
   @media (min-width: 1440px) {
+    height: 101px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 131px 20px 131px;
   }
 }
 
@@ -45,22 +47,22 @@
   color: #3b5998;
 }
 .fa-instagram:hover {
-  color: #F77737;
+  color: #f77737;
 }
-.fa-twitter:hover{
-  color: #1DA1F2;
+.fa-twitter:hover {
+  color: #1da1f2;
 }
 .fa-pinterest-p:hover {
-  color: #E60023;
+  color: #e60023;
 }
-.fa-tiktok:hover{
+.fa-tiktok:hover {
   color: #000000;
 }
 .fa-whatsapp:hover::before {
   border-radius: 25%;
-  color: #25D366;
+  color: #25d366;
   background-color: white;
 }
-.fa-youtube:hover{
-  color: #FF0000;
+.fa-youtube:hover {
+  color: #ff0000;
 }

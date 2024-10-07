@@ -8,13 +8,16 @@
   padding-left: 22px;
   position: sticky;
   top: 0;
-  &-contenido-movil{
+
+  &-contenido-movil {
     display: flex;
     align-items: center;
   }
 
   @media (min-width: 1440px) {
     justify-content: space-between;
+    padding: 35px 130px 35px 135px;
+    height: 100%;
   }
 }
 
@@ -36,19 +39,19 @@
 .menu-hamburguesa {
   width: 30px;
   position: absolute;
-  right: 41.9px; 
-  
+  right: 41.9px;
+
   @media (min-width: 1440px) {
     display: none;
-    }
+  }
 }
 
 .contenedor-menu {
   display: none;
-  
+
   @media (min-width: 1440px) {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -62,4 +65,3 @@
     color: $colorFont;
   }
 }
-
