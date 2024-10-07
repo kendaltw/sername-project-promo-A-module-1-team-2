@@ -7,6 +7,7 @@
   font-family: $fontText1;
 
   @media (min-width: 1440px) {
+    height: 101px;
     display: flex;
     flex-direction: row;
     align-items: center;
