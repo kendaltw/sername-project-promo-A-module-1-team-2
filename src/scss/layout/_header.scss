@@ -8,6 +8,7 @@
   padding-left: 22px;
   position: sticky;
   top: 0;
+
   &-contenido-movil {
     display: flex;
     align-items: center;
@@ -15,6 +16,7 @@
 
   @media (min-width: 1440px) {
     justify-content: space-between;
+    padding: 50px 130px 35px 135px;
   }
 }
 
