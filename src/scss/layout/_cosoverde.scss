@@ -1,7 +1,7 @@
 .cosoverde {
   background-color: #74c69d;
   font-family: Arial, sans-serif;
-
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 60px;
@@ -45,14 +45,8 @@
     gap: 130px;
     align-items: center;
     padding: 130px;
+    flex-direction: row-reverse;
   }
-  .text {
-    order: 1;
-    flex-direction: column;
-  }
-
-  //  si quito el flexdirection colum ! comentar con ellas!
-  .foto_idea {
-    order: 2;
-  }
+  
 }
+
