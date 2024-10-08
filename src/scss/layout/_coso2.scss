@@ -15,6 +15,10 @@
     padding: 130px;
   }
 }
+.parrafo2 {
+  color: $colorFont3;
+  font-family: $fontText1;
+}
 
 .image {
   width: 100%;
@@ -39,6 +43,7 @@
 .button-2 {
   background-color: $colorFont2;
   color: $colorFont;
+  font-family: $fontText2;
   padding: 15px 30px;
   font-size: 25px;
   text-decoration: none;
