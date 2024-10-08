@@ -4,17 +4,22 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 60px;
+  padding: 30px;
+  gap: 30px;
 }
 .foto_idea {
   width: 100%;
-  margin: 10px;
-  max-width: 600px;
-  order: 1;
+ 
 }
-.text {
-  order: 2;
+
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 470px;
 }
+
 .explora {
   background-color: white;
   color: black;
@@ -25,7 +30,6 @@
   text-decoration: none;
   border-radius: 5px;
   transition: transform 0.3s ease;
-  margin: 10px;
   width: 150px;
 }
 .welcome {
@@ -40,12 +44,14 @@
 
 @media (min-width: 1440px) {
   .cosoverde {
-    display: flex;
-    flex-direction: row;
-    gap: 130px;
-    align-items: center;
-    padding: 130px;
     flex-direction: row-reverse;
+      gap: 130px;
+      padding: 130px;
+      justify-content: center;
+      align-items: center;
+  }
+  .titulo3 {
+    padding: 10px;
   }
   
 }
