@@ -16,13 +16,17 @@
 }
 .foto_idea {
   width: 100%;
-  margin: 10px;
-  max-width: 600px;
-  order: 1;
+ 
 }
-.text {
-  order: 2;
+
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 470px;
 }
+
 .explora {
   background-color: $colorFont;
   color: $colorFont2;
@@ -53,11 +57,10 @@
 
 @media (min-width: 1440px) {
   .cosoverde {
-    display: flex;
-    flex-direction: row;
-    gap: 130px;
-    align-items: center;
-    padding: 130px;
     flex-direction: row-reverse;
+      gap: 130px;
+      padding: 130px;
+      justify-content: center;
+      align-items: center;
   }
 }
