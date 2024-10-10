@@ -1,13 +1,9 @@
 .contact{
     padding: 50px;
-<<<<<<< HEAD
     margin: 20px;
-=======
->>>>>>> 93c54f360763d549d1b1bdb2ab07c5949b7cb7f6
     margin-bottom: 10px;
     width: 100%;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column; 
     text-align: center;
     font-family: $fontText1;   
@@ -15,33 +11,24 @@
 @media (min-width: 1440px){
     .contact {
         display: flex;
-        width: 50%;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 .parrafo {
     margin-top: 20px;
-=======
     flex-direction: column;    
     align-items: center;
->>>>>>> 93c54f360763d549d1b1bdb2ab07c5949b7cb7f6
 }
 .form{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     width: 100%;
     align-self: center;
     padding: 40px;
     font-family: $fontText1;
     margin-left: 20px;
-    
-    
-
-=======
     align-self: start;
     padding: 10px;
->>>>>>> 93c54f360763d549d1b1bdb2ab07c5949b7cb7f6
 }
 .submit{
     font-family: $fontText1; 
@@ -51,7 +38,6 @@
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
-<<<<<<< HEAD
     text-decoration: none; 
     transition: transform 0,3s ease;
     }
@@ -92,8 +78,7 @@
 }
 
 
-=======
-}
+
 
 .container-mapa {
     width: 100%;
@@ -119,4 +104,3 @@
         flex-direction: row;
     }
 }
->>>>>>> 93c54f360763d549d1b1bdb2ab07c5949b7cb7f6
