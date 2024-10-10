@@ -40,6 +40,9 @@
   gap: 5px;
   font-family: $fontText1;
   font-size: 20px;
+  a {
+    color: $colorFont;
+  }
 }
 
 // Cada icono de red social tiene su color corporativo
