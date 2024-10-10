@@ -18,14 +18,15 @@
   &-contenido-movil {
     display: flex;
     align-items: center;
-
-    &:hover {
-      animation-name: mouse;
-      animation-duration: 0.4s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: 2;
-      animation-direction: alternate;
-      cursor: pointer;
+    &-a {
+      &:hover {
+        animation-name: mouse;
+        animation-duration: 0.4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        cursor: pointer;
+      }
     }
   }
 
