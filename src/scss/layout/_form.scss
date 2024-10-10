@@ -1,38 +1,39 @@
 .contact{
     padding: 50px;
     margin: 20px;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
     width: 100%;
-   display: flex;
+    display: flex;
     flex-direction: column; 
     text-align: center;
     font-family: $fontText1;   
 }
-
 @media (min-width: 1440px){
     .contact {
         display: flex;
         align-items: center;
     }
 }
-
-.parrafo {
-            margin-top: 20px;
-        flex-direction: column;    
-        align-items: center;
-    }
-    
-
 .form{
     display: flex;
     flex-direction: column;
+}
+    
+
+
+.parrafo {
+    margin-top: 20px;
+    flex-direction: column;    
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    align-self: center;
-    padding: 40px;
     font-family: $fontText1;
-    margin-left: 20px;
-    align-self: start;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .submit{
     font-family: $fontText1; 
@@ -45,45 +46,55 @@
     text-decoration: none; 
     transition: transform 0,3s ease;
     }
-
+    
 .name {
-        margin-bottom: 10px;
+    margin-bottom: 10px;
     font-size: large;
 
-    }
+}
 
-    .namebox {
-    
-        height: 50px;
-        border-radius: 10px;
-        background-color: lightgrey;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
+.namebox {
 
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 .email{
-        margin-bottom: 10px;
-        font-size: large;
-    
-    }
-    .emailbox{
-    
-        height: 50px;
-        border-radius: 10px;
-        background-color: lightgrey;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }        
+    margin-bottom: 10px;
+    font-size: large;
+
+}
+.emailbox{
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text{
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 
 
 .container-mapa {
-    width: 100%;
-    max-width: 600px;
+    width: 70%;
+
     margin: 0 auto;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    
+    z-index: -1;
+    display: flex;
+    justify-content: center;
 }
 
 .mapa {
@@ -93,10 +104,23 @@
     width: 100%;
     height: 100%;
     padding: 10px;
+} 
+
+.formulario{
+    display: grid;
+    grid-template-row: 1fr 1fr;
+    
+    padding: 130px;
+    margin-top: -150px;
 }
-@media (min-width: 1440px) {
+ @media (min-width: 1440px) {
     .formulario{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-mapa {
+    width: 500px;
+    
     }
 }
