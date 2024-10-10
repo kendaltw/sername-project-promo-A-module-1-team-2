@@ -55,9 +55,8 @@
   align-items: center;
   width: 170px;
   height: 48px;
-  transition: transform 0.3s ease;
-}
-
-.ver-mas:hover {
-  transform: scale(2px);
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
 }
