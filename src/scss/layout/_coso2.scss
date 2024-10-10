@@ -35,9 +35,13 @@
 .photo {
   width: 100%;
 }
-.container button2 {
+.container_button2 {
   display: flex;
   padding: 14px 0px 14px 0px;
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .button-2 {
@@ -53,8 +57,4 @@
   align-items: center;
   width: 170px;
   height: 48px;
-  transition: transform 0.3s ease;
-}
-.button-2:hover {
-  transform: scale(2px);
 }
